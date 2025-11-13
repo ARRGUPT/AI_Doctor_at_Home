@@ -56,3 +56,5 @@ streamlit run app.py
 - The system only answers based on provided medical documents
 - Always consult healthcare professionals for medical advice
 - First-time setup will take a few minutes to create embeddings
+
+## Live APP [Try it on streamlit](https://arrgupt-ai-doctor-at-home-app-hqwthj.streamlit.app/)
