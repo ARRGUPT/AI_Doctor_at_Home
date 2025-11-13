@@ -1,8 +1,8 @@
 #LangChain Core
 langchain
 langchain-core
-langchain_groq
-langchain_community
+langchain-groq
+langchain-community
 # Hugging Face Integration
 langchain-huggingface
 transformers
@@ -17,3 +17,4 @@ streamlit
 #Other
 faiss-cpu
 sentence-transformers
+pypdf
