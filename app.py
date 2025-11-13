@@ -5,6 +5,7 @@ from src.rag_chain import build_rag_chain
 from langchain_groq import ChatGroq
 from dotenv import load_dotenv
 import os
+import streamlit as st
 
 load_dotenv()
 
@@ -18,7 +19,7 @@ except:
     vectorstore = create_vectorstore(docs, persist_dir=persist_dir)
 
 # Initialize LLM
-groq_api_key = os.getenv("GROQ_API_KEY")
+groq_api_key = os.getenv("GROQ_API_KEY") or st.secrets["GROQ_API_KEY"]
 
 llm = ChatGroq(groq_api_key=groq_api_key, model="llama-3.1-8b-instant", temperature=0.2, max_tokens=1000)
 
