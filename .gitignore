@@ -10,10 +10,6 @@ __pycache__/
 venv/
 *.venv
 
-# Embeddings and FAISS indices
-embeddings/
+# FAISS indices
 *.faiss
 *.pkl
-
-# Data folder
-data/
