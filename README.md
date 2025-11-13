@@ -25,6 +25,12 @@ GROQ_API_KEY=your_groq_api_key
 
 3. Add medical PDF documents to the `data/` directory
 
+## Version
+```bash
+python --version
+3.13.7
+```
+
 ## Project Structure
 
 - `app.py` - Main Streamlit application
